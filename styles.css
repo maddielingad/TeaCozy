@@ -1,0 +1,140 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+    background-color: black;
+    color: seashell;
+    padding-top: 69px;
+    margin: 0;
+}
+
+/* Header */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    height: 69px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+}
+
+header nav a {
+    color: seashell;
+}
+
+/* Our Mission section */ 
+
+.mission-heading h2 {
+    margin: 10px 0px 20px 0px;
+}
+
+.mission-heading h4 {
+    margin: 20px 0px 10px 0px;
+}
+
+.mission-heading {
+    background-color: black;
+    width: 1200px;
+}
+
+.mission-image {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission .mission-image {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+}
+
+/* Tea of the Month section */
+
+figcaption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tea-heading {
+    background-color: black;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.tea-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tea-images img {
+    margin: 10px;
+}
+
+/* Locations section */ 
+
+#locations .locations-image {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px; /* Codecademy specifies 500px but is actually 570px */ 
+    width: 1200px;
+}
+
+.locations-image {
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.three-locations {
+    display: flex;
+    flex-direction: row;
+}
+
+.location-box {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations h2 {
+    margin: 0px;
+}
+
+/* Footer */ 
+
+.top-footer {
+    height: 200px;
+}
+
+.top-footer h2 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
